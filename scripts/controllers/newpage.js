@@ -8,10 +8,6 @@
  * Controller of the mytodoApp
  */
 angular.module('mytodoApp')
-  .controller('NewpageCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('NewpageCtrl', function ($scope) {
+    $scope.myValue = "derrick";
   });
